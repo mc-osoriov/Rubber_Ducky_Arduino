@@ -1,0 +1,545 @@
+#include <Keyboard.h>
+void setup() {
+
+Keyboard.begin();
+  delay(400);
+  
+  delay(400);
+  Keyboard.press(KEY_LEFT_GUI);
+  Keyboard.press('d');  
+  Keyboard.releaseAll();
+  delay(400);
+      
+  delay(500);
+  Keyboard.press(KEY_LEFT_CTRL); 
+  Keyboard.press(KEY_ESC); 
+  Keyboard.releaseAll();
+  delay(500);
+
+  delay(500);
+  Keyboard.press(KEY_TAB);
+  Keyboard.releaseAll();
+  delay(500);
+
+  delay(500);
+  Keyboard.press(KEY_TAB);
+  Keyboard.releaseAll();
+  delay(500);
+
+  delay(500);
+  Keyboard.press(KEY_TAB);
+  Keyboard.releaseAll();
+  delay(500);
+
+  delay(500);
+  Keyboard.press(KEY_DOWN_ARROW);
+  Keyboard.releaseAll();
+  delay(500);
+
+  delay(500);
+  Keyboard.press(KEY_RETURN);
+  Keyboard.releaseAll();
+  delay(500);
+
+  delay(9000);
+  Keyboard.press(KEY_RETURN);
+  Keyboard.releaseAll();
+  delay(9000);
+
+  delay(6000);
+  Keyboard.press(KEY_RETURN);
+  Keyboard.releaseAll();
+  delay(6000);
+
+  delay(3000);
+  Keyboard.press(KEY_RETURN);
+  Keyboard.releaseAll();
+  delay(500);
+  
+  delay(300);
+  Keyboard.press(KEY_TAB);
+  Keyboard.releaseAll();
+  delay(300);
+
+  delay(300);
+  Keyboard.press(KEY_TAB);
+  Keyboard.releaseAll();
+  delay(300);
+  
+  delay(300);
+  Keyboard.press(KEY_TAB);
+  Keyboard.releaseAll();
+  delay(300);
+
+  delay(300);
+  Keyboard.press(KEY_TAB);
+  Keyboard.releaseAll();
+  delay(300);
+
+  delay(300);
+  Keyboard.press(KEY_TAB);
+  Keyboard.releaseAll();
+  delay(300);
+
+  delay(300);
+  Keyboard.press(KEY_TAB);
+  Keyboard.releaseAll();
+  delay(300);
+
+  delay(300);
+  Keyboard.press(KEY_TAB);
+  Keyboard.releaseAll();
+  delay(4000);
+
+  delay(9000);
+  Keyboard.press(KEY_LEFT_CTRL); 
+  Keyboard.press('o');
+  Keyboard.releaseAll();
+  delay(2000);
+
+  delay(1000);
+  Keyboard.print("CODIGOFINALPROGRAMACION");
+  delay(500);
+
+  delay(500);
+  Keyboard.press(KEY_RETURN);
+  Keyboard.releaseAll();
+  delay(500);
+
+  delay(5000);
+  Keyboard.press(KEY_LEFT_CTRL); 
+  Keyboard.press('j');
+  Keyboard.releaseAll();
+  delay(2000);
+
+  delay(3000);
+  Keyboard.print("pip install instabot");
+  delay(500);
+
+  delay(500);
+  Keyboard.press(KEY_RETURN);
+  Keyboard.releaseAll();
+  delay(500);
+
+  delay(6000);
+  Keyboard.print("pip install pandas");
+  delay(500);
+
+  delay(500);
+  Keyboard.press(KEY_RETURN);
+  Keyboard.releaseAll();
+  delay(500);
+
+  delay(5000);
+  Keyboard.press(KEY_LEFT_CTRL); 
+  Keyboard.press(KEY_LEFT_SHIFT);
+  Keyboard.press('p');
+  Keyboard.releaseAll();
+  delay(2000);
+
+  delay(2000);
+  Keyboard.print("run python file in terminal");
+  delay(500);
+
+  delay(500);
+  Keyboard.press(KEY_RETURN);
+  Keyboard.releaseAll();
+  delay(9000);
+
+  delay(9000);
+  delay(9000);
+  delay(9000);
+  delay(9000);
+  delay(9000);      
+  Keyboard.press(KEY_LEFT_GUI);
+  Keyboard.press('d');  
+  Keyboard.releaseAll();
+  delay(500);
+ 
+ delay(500);
+  Keyboard.press(KEY_LEFT_GUI);
+  Keyboard.press('r');  
+  Keyboard.releaseAll();
+  delay(500);
+
+delay(500);
+ Keyboard.print("powershell");
+ delay(500);
+  
+ delay(1000);
+ Keyboard.press(KEY_RETURN);
+ Keyboard.releaseAll();
+ delay(1000);
+
+delay(1000);
+ Keyboard.print("$SMTPServer = \"smtp.gmail.com\"");
+ delay(700);
+  
+ delay(500);
+ Keyboard.press(KEY_RETURN);
+ Keyboard.releaseAll();
+ delay(500);
+
+  delay(500);
+ Keyboard.print("$SMTPPort = \"587\" ");
+ delay(500);
+  
+ delay(500);
+ Keyboard.press(KEY_RETURN);
+ Keyboard.releaseAll();
+ delay(500);
+
+delay(500);
+ Keyboard.print("$Username = \"**********@gmail.com\" "); //put email
+ delay(500);
+  
+ delay(500);
+ Keyboard.press(KEY_RETURN);
+ Keyboard.releaseAll();
+ delay(500);
+
+delay(500);
+ Keyboard.print("$Password = \"*******\" ");
+ delay(500);
+  
+ delay(500);
+ Keyboard.press(KEY_RETURN);
+ Keyboard.releaseAll();
+ delay(500);
+ 
+ delay(500);
+ Keyboard.print("$to = \"******@gmail.com\" "); //put email
+ delay(500);
+  
+ delay(500);
+ Keyboard.press(KEY_RETURN);
+ Keyboard.releaseAll();
+ delay(500);
+
+ delay(500);
+ Keyboard.print("$subject = \"DATOS DE SEGUIDORES\" ");
+ delay(500);
+  
+ delay(500);
+ Keyboard.press(KEY_RETURN);
+ Keyboard.releaseAll();
+ delay(500);
+
+delay(500);
+ Keyboard.print("$body = \"Te envio los datos de las personas a quienes sigue ******\" ");
+ delay(500);
+  
+ delay(500);
+ Keyboard.press(KEY_RETURN);
+ Keyboard.releaseAll();
+ delay(500);
+
+ delay(500);
+ Keyboard.print("$attachment = \"C:\\Users\\chofa\\Downloads\\BiographyDatosFINAL.csv\" ");
+ delay(500);
+  
+ delay(500);
+ Keyboard.press(KEY_RETURN);
+ Keyboard.releaseAll();
+ delay(500);
+
+ delay(500);
+ Keyboard.print("$message = New-Object System.Net.Mail.MailMessage");
+ delay(500);
+  
+ delay(500);
+ Keyboard.press(KEY_RETURN);
+ Keyboard.releaseAll();
+ delay(500);
+
+ delay(500);
+ Keyboard.print("$message.subject = $subject");
+ delay(500);
+  
+ delay(500);
+ Keyboard.press(KEY_RETURN);
+ Keyboard.releaseAll();
+ delay(500);
+
+ delay(500);
+ Keyboard.print("$message.body = $body");
+ delay(500);
+  
+ delay(500);
+ Keyboard.press(KEY_RETURN);
+ Keyboard.releaseAll();
+ delay(500);
+
+ delay(500);
+ Keyboard.print("$message.to.add($to)");
+ delay(500);
+  
+ delay(500);
+ Keyboard.press(KEY_RETURN);
+ Keyboard.releaseAll();
+ delay(500);
+
+ delay(500);
+ Keyboard.print("$message.from = $username");
+ delay(500);
+  
+ delay(500);
+ Keyboard.press(KEY_RETURN);
+ Keyboard.releaseAll();
+ delay(500);
+
+ delay(500);
+ Keyboard.print("$message.attachments.add($attachment)");
+ delay(500);
+  
+ delay(500);
+ Keyboard.press(KEY_RETURN);
+ Keyboard.releaseAll();
+ delay(500);
+
+ delay(500);
+ Keyboard.print("$smtp = New-Object System.Net.Mail.SmtpClient($SMTPServer, $SMTPPort);");
+ delay(500);
+  
+ delay(500);
+ Keyboard.press(KEY_RETURN);
+ Keyboard.releaseAll();
+ delay(500);
+
+ delay(500);
+ Keyboard.print("$smtp.EnableSSL = $true");
+ delay(500);
+  
+ delay(500);
+ Keyboard.press(KEY_RETURN);
+ Keyboard.releaseAll();
+ delay(500);
+
+ delay(500);
+ Keyboard.print("$smtp.Credentials = New-Object System.Net.NetworkCredential($Username, $Password);");
+ delay(500);
+  
+ delay(500);
+ Keyboard.press(KEY_RETURN);
+ Keyboard.releaseAll();
+ delay(500);
+
+ delay(500);
+ Keyboard.print("$smtp.send($message)");
+ delay(500);
+  
+ delay(500);
+ Keyboard.press(KEY_RETURN);
+ Keyboard.releaseAll();
+ delay(5000);
+
+ delay(500);
+ Keyboard.print("EXIT");
+ delay(500);
+  
+ delay(500);
+ Keyboard.press(KEY_RETURN);
+ Keyboard.releaseAll();
+ delay(500);
+ Keyboard.end();
+
+  delay(3000);
+  Keyboard.press(KEY_LEFT_GUI);
+  Keyboard.press('d');  
+  Keyboard.releaseAll();
+  delay(500);
+ 
+  delay(500);
+  Keyboard.press(KEY_LEFT_GUI);
+  Keyboard.press('r');  
+  Keyboard.releaseAll();
+  delay(500);
+
+ delay(500);
+ Keyboard.print("powershell");
+ delay(500);
+  
+ delay(1000);
+ Keyboard.press(KEY_RETURN);
+ Keyboard.releaseAll();
+ delay(1000);
+
+ delay(1000);
+ Keyboard.print("$SMTPServer = \"smtp.gmail.com\"");
+ delay(700);
+  
+ delay(500);
+ Keyboard.press(KEY_RETURN);
+ Keyboard.releaseAll();
+ delay(500);
+
+  delay(500);
+ Keyboard.print("$SMTPPort = \"587\" ");
+ delay(500);
+  
+ delay(500);
+ Keyboard.press(KEY_RETURN);
+ Keyboard.releaseAll();
+ delay(500);
+
+delay(500);
+ Keyboard.print("$Username = \"*******@gmail.com\" "); //put email
+ delay(500);
+  
+ delay(500);
+ Keyboard.press(KEY_RETURN);
+ Keyboard.releaseAll();
+ delay(500);
+
+delay(500);
+ Keyboard.print("$Password = \"******\" ");
+ delay(500);
+  
+ delay(500);
+ Keyboard.press(KEY_RETURN);
+ Keyboard.releaseAll();
+ delay(500);
+ 
+ delay(500);
+ Keyboard.print("$to = \"********@gmail.com\" "); //put email
+ delay(500);
+  
+ delay(500);
+ Keyboard.press(KEY_RETURN);
+ Keyboard.releaseAll();
+ delay(500);
+
+ delay(500);
+ Keyboard.print("$subject = \"LISTA DE SEGUIDORES\" ");
+ delay(500);
+  
+ delay(500);
+ Keyboard.press(KEY_RETURN);
+ Keyboard.releaseAll();
+ delay(500);
+
+delay(500);
+ Keyboard.print("$body = \"Te envio la lista de seguidores de *******\" ");
+ delay(500);
+  
+ delay(500);
+ Keyboard.press(KEY_RETURN);
+ Keyboard.releaseAll();
+ delay(500);
+
+ delay(500);
+ Keyboard.print("$attachment = \"C:\\Users\\chofa\\Downloads\\FollowerInfoFINAL.csv\" ");
+ delay(500);
+  
+ delay(500);
+ Keyboard.press(KEY_RETURN);
+ Keyboard.releaseAll();
+ delay(500);
+
+ delay(500);
+ Keyboard.print("$message = New-Object System.Net.Mail.MailMessage");
+ delay(500);
+  
+ delay(500);
+ Keyboard.press(KEY_RETURN);
+ Keyboard.releaseAll();
+ delay(500);
+
+ delay(500);
+ Keyboard.print("$message.subject = $subject");
+ delay(500);
+  
+ delay(500);
+ Keyboard.press(KEY_RETURN);
+ Keyboard.releaseAll();
+ delay(500);
+
+ delay(500);
+ Keyboard.print("$message.body = $body");
+ delay(500);
+  
+ delay(500);
+ Keyboard.press(KEY_RETURN);
+ Keyboard.releaseAll();
+ delay(500);
+
+ delay(500);
+ Keyboard.print("$message.to.add($to)");
+ delay(500);
+  
+ delay(500);
+ Keyboard.press(KEY_RETURN);
+ Keyboard.releaseAll();
+ delay(500);
+
+ delay(500);
+ Keyboard.print("$message.from = $username");
+ delay(500);
+  
+ delay(500);
+ Keyboard.press(KEY_RETURN);
+ Keyboard.releaseAll();
+ delay(500);
+
+ delay(500);
+ Keyboard.print("$message.attachments.add($attachment)");
+ delay(500);
+  
+ delay(500);
+ Keyboard.press(KEY_RETURN);
+ Keyboard.releaseAll();
+ delay(500);
+
+ delay(500);
+ Keyboard.print("$smtp = New-Object System.Net.Mail.SmtpClient($SMTPServer, $SMTPPort);");
+ delay(500);
+  
+ delay(500);
+ Keyboard.press(KEY_RETURN);
+ Keyboard.releaseAll();
+ delay(500);
+
+ delay(500);
+ Keyboard.print("$smtp.EnableSSL = $true");
+ delay(500);
+  
+ delay(500);
+ Keyboard.press(KEY_RETURN);
+ Keyboard.releaseAll();
+ delay(500);
+
+ delay(500);
+ Keyboard.print("$smtp.Credentials = New-Object System.Net.NetworkCredential($Username, $Password);");
+ delay(500);
+  
+ delay(500);
+ Keyboard.press(KEY_RETURN);
+ Keyboard.releaseAll();
+ delay(500);
+
+ delay(500);
+ Keyboard.print("$smtp.send($message)");
+ delay(500);
+  
+ delay(500);
+ Keyboard.press(KEY_RETURN);
+ Keyboard.releaseAll();
+ delay(5000);
+
+ delay(500);
+ Keyboard.print("EXIT");
+ delay(500);
+  
+ delay(500);
+ Keyboard.press(KEY_RETURN);
+ Keyboard.releaseAll();
+ delay(500);
+ Keyboard.end();
+
+
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+
+}
