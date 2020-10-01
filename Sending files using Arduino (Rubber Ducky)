@@ -199,7 +199,7 @@ delay(500);
  delay(500);
 
 delay(500);
- Keyboard.print("$Password = \"*******\" ");
+ Keyboard.print("$Password = \"*******\" "); // put real password
  delay(500);
   
  delay(500);
@@ -217,7 +217,7 @@ delay(500);
  delay(500);
 
  delay(500);
- Keyboard.print("$subject = \"DATOS DE SEGUIDORES\" ");
+ Keyboard.print("$subject = \"FOLLOWING DATA\" ");
  delay(500);
   
  delay(500);
@@ -226,7 +226,7 @@ delay(500);
  delay(500);
 
 delay(500);
- Keyboard.print("$body = \"Te envio los datos de las personas a quienes sigue ******\" ");
+ Keyboard.print("$body = \"I send you the following data of  ******\" ");
  delay(500);
   
  delay(500);
@@ -235,7 +235,7 @@ delay(500);
  delay(500);
 
  delay(500);
- Keyboard.print("$attachment = \"C:\\Users\\chofa\\Downloads\\BiographyDatosFINAL.csv\" ");
+ Keyboard.print("$attachment = \"C:\\Users\\chofa\\Downloads\\BiographyDatosFINAL.csv\" "); //file root
  delay(500);
   
  delay(500);
@@ -392,7 +392,7 @@ delay(500);
  delay(500);
 
 delay(500);
- Keyboard.print("$Password = \"******\" ");
+ Keyboard.print("$Password = \"******\" "); //put real password
  delay(500);
   
  delay(500);
@@ -410,7 +410,7 @@ delay(500);
  delay(500);
 
  delay(500);
- Keyboard.print("$subject = \"LISTA DE SEGUIDORES\" ");
+ Keyboard.print("$subject = \"FOLLOWERS DATA\" ");
  delay(500);
   
  delay(500);
@@ -419,7 +419,7 @@ delay(500);
  delay(500);
 
 delay(500);
- Keyboard.print("$body = \"Te envio la lista de seguidores de *******\" ");
+ Keyboard.print("$body = \"I send the followers data of  *******\" ");
  delay(500);
   
  delay(500);
@@ -428,7 +428,7 @@ delay(500);
  delay(500);
 
  delay(500);
- Keyboard.print("$attachment = \"C:\\Users\\chofa\\Downloads\\FollowerInfoFINAL.csv\" ");
+ Keyboard.print("$attachment = \"C:\\Users\\chofa\\Downloads\\FollowerInfoFINAL.csv\" "); //file root
  delay(500);
   
  delay(500);
